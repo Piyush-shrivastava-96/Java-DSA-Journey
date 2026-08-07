@@ -1,5 +1,5 @@
 
-public class Basics {
+public class _02_Basics {
     public static void main(String[] args) {
         System.out.println("My name is Piyush Shrivastava");
 
