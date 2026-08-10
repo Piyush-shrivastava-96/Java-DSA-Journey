@@ -1,5 +1,5 @@
 
-public class For_Loop {
+public class _01_For_Loop {
     public static void main(String[] args) {
 
         System.out.println("\n1.Use of For Loop; ");
