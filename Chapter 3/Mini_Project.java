@@ -65,7 +65,8 @@ public class Mini_Project {
             System.out.println("Petrol Pump pay:    ₹ 3000");
             System.out.println("kirana store pay:   ₹ 500");
             System.out.println("Self Withdrawl pay: ₹ 10,000");
-            System.out.println("College pay fees:   ₹ 42,000\n\n");
+            System.out.println("College pay fees:   ₹ 42,000");
+            System.out.println("Your current balance; " +balance);
             break;
 
 
