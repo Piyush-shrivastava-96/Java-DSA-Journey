@@ -39,6 +39,18 @@ public class Print {
                 }
                 System.out.println();
                 }
+
+        for(int n = 1; n <= 4; n++) {
+            for(int m = 1; m <= 4; m++){
+                if(n == 1  || m == 1  || n == 4 || m == 4){
+                    System.out.print("*");
+                }
+                else{
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
             
     }
         
