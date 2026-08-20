@@ -59,7 +59,7 @@ public class Print {
             System.out.println();
         }
         
-    System.out.println("\n****************************************\n");
+    System.out.println("\n**************************************\n");
 
     for(int b = 9; b >= 1; b--){
         for(int v = b; v >= 1; v--){
