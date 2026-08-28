@@ -60,9 +60,10 @@ public class Function{
         }
         return 1;
     }
-
     public static void main(String[] args){
         Scanner tc = new Scanner(System.in);
+
+        while (true) {
 
         System.out.println("Please enter the number which you want to know whether it is prime or composite :- ");
         int v = tc.nextInt();
@@ -75,6 +76,7 @@ public class Function{
             System.out.println(v+" is not a prime number, this is a composite number");
         }
     }
+}
 
     
     
