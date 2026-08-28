@@ -2,28 +2,28 @@ import java.util.Scanner;
 
 
 public class Function{
-    // public static int calculateSum(int number1 , int number2){
-    //     int sum = number1+number2;
-    //     return sum;
-    // }
+    public static int calculateSum(int number1 , int number2){
+        int sum = number1+number2;
+        return sum;
+    }
 
-    // public static void main(String[] args){
-    //     Scanner ac = new Scanner(System.in);
+    public static void main(String[] args){
+        Scanner ac = new Scanner(System.in);
 
-    //     System.out.println("Please Enter The First Number");
-    //     int a = ac.nextInt();
+        System.out.println("Please Enter The First Number");
+        int a = ac.nextInt();
 
-    //     System.out.println("Please Enter The Second Number");
-    //     int b = ac.nextInt();
+        System.out.println("Please Enter The Second Number");
+        int b = ac.nextInt();
 
-    //     int sum = a+b;
+        int sum = a+b;
 
-    //     int result = calculateSum(a, b);
+        int result = calculateSum(a, b);
 
-    //     System.out.println("Your 2 Numbers sum are = " +sum);
+        System.out.println("Your 2 Numbers sum are = " +sum);
 
 
-    // }
+    }
 
 
 
