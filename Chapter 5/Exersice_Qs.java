@@ -53,48 +53,58 @@ public class Exersice_Qs {
     }
 
     public static void main(String[] args){
-        //  Scanner sc = new Scanner(System.in);
-        //  System.out.println("Enter tha number:-");
-        //  int a = sc.nextInt();
-        //  System.out.println("Enter tha Second number");
-        //  int b = sc.nextInt();
-        //  System.out.println("Enter the third number");
-        //  int c = sc.nextInt();
+         Scanner sc = new Scanner(System.in);
+         System.out.println("Enter tha number:-");
+         int a = sc.nextInt();
+         System.out.println("Enter tha Second number");
+         int b = sc.nextInt();
+         System.out.println("Enter the third number");
+         int c = sc.nextInt();
+         System.out.println("So The Anwer is :-");
+         printAverage(a,b,c);
          
-        //  printAverage(a,b,c);
-         
-        // System.out.println("\n--------------------------------------------------------\n");
+        System.out.println("\n--------------------------------------------------------\n");
 
-        // Scanner tc = new Scanner(System.in);
-        // System.out.println("Enter the number up to which you want the sum of odd numbers");
-        // int t = tc.nextInt();
-
-        // oddSum(t);
+        Scanner tc = new Scanner(System.in);
+        System.out.println("Enter the number up to which you want the sum of odd numbers");
+        int t = tc.nextInt();
+        System.out.println("So the answer is :-");
+        oddSum(t);
 
 
-        // System.out.println("\n-----------------------------------------------------------\n");
+        System.out.println("\n-----------------------------------------------------------\n");
 
-        // Scanner gc = new Scanner(System.in);
-        // System.out.println("Please enter the number ");
-        // int h = gc.nextInt();
+        Scanner gc = new Scanner(System.in);
+        System.out.println("Please enter the number ");
+        int h = gc.nextInt();
 
-        // System.out.println("Please enter the second number");
-        // int l = gc.nextInt();
+        System.out.println("Please enter the second number");
+        int l = gc.nextInt();
+        System.out.println("So the answer is :-");
 
-        // int res = findGreater(h, l);
+        int res = findGreater(h, l);
 
-        // System.out.println("\n--------------------------------------------------------------------\n");
-        // Scanner hc = new Scanner(System.in);
-        // System.out.println("Enter the redius which you want to have the circumfrence of the circle.");
-        // double d = hc.nextDouble();
-        // double resultt = findCircumfrence(d);
-        // System.out.println(resultt);
+        System.out.println("\n--------------------------------------------------------------------\n");
+        Scanner hc = new Scanner(System.in);
+        System.out.println("Enter the redius which you want to have the circumfrence of the circle.");
+        double d = hc.nextDouble();
+        System.out.println("So The answer is :-");
+        double resultt = findCircumfrence(d);
+        System.out.println(resultt);
 
         System.out.println("\n----------------------------------------------------------------------\n");
         Scanner bc = new Scanner(System.in);
         System.out.println("Please Enter Your Age because we need know whether you are an adult or not");
         int y = bc.nextInt();
+        System.out.println("So :-");
         findAge(y);
+
+    //     // int i = 1;
+    //     // do {
+    //     //     System.out.println("Hello piyush bhai ");
+            
+    //     // } while(true);
+        
 
 
 
