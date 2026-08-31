@@ -1,5 +1,5 @@
 import java.util.*;
-public class Exersice_Qs {
+public class _02_Exersice_Qs {
     public static void printAverage(int n, int m, int o){
         int avg = (n+m+o)/3;
         System.out.println(avg);

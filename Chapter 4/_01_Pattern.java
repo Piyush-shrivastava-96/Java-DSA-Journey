@@ -1,5 +1,5 @@
 
-public class Pattern {
+public class _01_Pattern {
     public static void main(String[] args) {
 
     
