@@ -83,6 +83,7 @@ public class _03_Adv_Ex {
     System.out.println("So the answer is :-");
     int ans = findNpower(v, z);
     
+    
 
     
 
