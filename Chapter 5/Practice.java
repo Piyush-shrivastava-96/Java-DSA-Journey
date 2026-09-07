@@ -17,7 +17,7 @@ public class Practice {
         int n = sc.nextInt();
 
         findPrime(n);
-        System.out.println();
+        
         }
     
 }
