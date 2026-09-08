@@ -18,13 +18,13 @@ public class Mini_Project {
         while (true) { 
 
         System.out.println("--------------------------- What would you like to do ? -----------------------------\n");
-
-        System.out.println("Check Balance    :~  Enter (1) ");
-        System.out.println("Withdraw Money   :~  Enter (2) ");
-        System.out.println("Mini Statement   :~  Enter (3) ");
-        System.out.println("Deposit Money    :~  Enter (4) ");
-        System.out.println("Exit             :~  Enter (5) ");
-
+        System.out.println("___________________________________");
+        System.out.println("| Check Balance    |:~  Enter (1) |");
+        System.out.println("| Withdraw Money   |:~  Enter (2) |");
+        System.out.println("| Mini Statement   |:~  Enter (3) |");
+        System.out.println("| Deposit Money    |:~  Enter (4) |");
+        System.out.println("| Exit             |:~  Enter (5) |");
+        System.out.println("|__________________|______________|");
         choice = sc.nextInt();
 
         System.out.println("Please Enter your 4-Digit ATM Pin; ");
