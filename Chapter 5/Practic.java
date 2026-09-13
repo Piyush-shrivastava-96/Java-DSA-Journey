@@ -1,23 +1,28 @@
 import java.util.*;
 
 public class Practic {  
-    // public static void  findAverage(){
-        
-
-    //     System.out.println();
-    //   return ;
-    // }
+    public static void  findPlusOddNumbers(int n){
+        int sum = 0;
+        for(int i=1; i<n; i++){
+             if(i%2 != 0 ){
+                sum = sum + i;
+            }
+        }
+        System.out.print(+sum);
+       
+      return ;
+    }
       
 
-    // public static void main(String[] args){
-    //     Scanner sc = new Scanner(System.in);
-    //     System.out.println("Enter the number");
-    //     int n = sc.nextInt();
-    //     System.out.println("So the final answer is :-\n");
-    //     // findAverage();
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number");
+        int n = sc.nextInt();
+        System.out.println("So the final answer is :-");
+        findPlusOddNumbers(n);
      
         
        
-    // }
+    }
     
 }
