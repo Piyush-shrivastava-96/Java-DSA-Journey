@@ -1,28 +1,38 @@
 import java.util.*;
 
 public class Practic {  
-    public static void  findPlusOddNumbers(int n){
-        int sum = 0;
-        for(int i=1; i<n; i++){
-             if(i%2 != 0 ){
-                sum = sum + i;
-            }
+    public static int findGreater(int n, int m){
+        if(n>m){
+            return n;
         }
-        System.out.print(+sum);
+        else if(n<m){
+            return m;
+        }
        
-      return ;
+        else{
+            
+            return n;
+            
+        }
+         
     }
-      
-
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number");
         int n = sc.nextInt();
-        System.out.println("So the final answer is :-");
-        findPlusOddNumbers(n);
-     
-        
-       
+        System.out.println("Enter the second number");
+        int m = sc.nextInt();
+        int answer = findGreater(n, m);
+        if(n==m){
+            System.out.println("Both Numbers are Equal");
+        }
+        else{
+        System.out.println("So the greater is -: " +answer);
+        }
+
+
+    
     }
+
     
 }
