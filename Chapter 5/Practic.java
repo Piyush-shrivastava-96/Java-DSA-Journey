@@ -2,18 +2,18 @@ import java.util.*;
 
 public class Practic {  
     public static int findGreater(int n, int m){
+        int ans = 1;
         if(n>m){
-            return n;
+           ans = n;
         }
         else if(n<m){
-            return m;
+            ans = m;
         }
        
         else{
-            
-            return n;
-            
+            ans = n;
         }
+        return ans;
          
     }
     public static void main(String[] args){
