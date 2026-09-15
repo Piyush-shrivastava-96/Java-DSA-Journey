@@ -8,7 +8,7 @@ public class Ary_cls {
         // for(int i=0; i<size; i++){
         //     numbers[i] = sc.nextInt();
         // }
-        // System.out.println("Enter the number you want to find ");
+        System.out.println("Enter the number you want to find ");
         // int x = sc.nextInt();
 
 
