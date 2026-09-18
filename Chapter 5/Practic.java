@@ -30,9 +30,18 @@ public class Practic {
     System.out.println("Zero numbers are total = " +zero);
 
     System.out.println("you want to continue this game press '1' and '0' ");
-    // if(press == 1){
-    //     System.out.println("Okay we are continue this game ");
-    // }
+    int press = sc.nextInt();
+    if(press == 1){
+        System.out.println("Okay we are continue this game ");
+    }
+    else if(press == 0){
+        System.out.println("Okay We are stop");
+        break;
+    }
+    else{
+        System.out.println("Invalid input!");
+        break;
+    }
 }
         
         
