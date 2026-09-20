@@ -1,29 +1,28 @@
 import java.util.*;
 
 public class Practic {  
-    // public static void find(int x, int n){
-      
+    public static void findGcd(int a, int b){
+        int gcd = 1; 
+       for(int i=1; i<=a && i<=b; i++){
+        if(a%i == 0 && b%i == 0){
+            gcd = i;
+
+        }
+       }
+       System.out.println("GCD Number is = " +gcd);
         
-    // }
+    }
     
     public static void main(String[] args){
    
     Scanner sc = new Scanner(System.in);
-    
-    
-    
-    
-   System.out.println("Enter the number of x");
-   int x = sc.nextInt();
-   System.out.println("Enter the power of n");
-   int n = sc.nextInt();
-   int result = 1;
-   for(int i=1; i<=n; i++){
-    result = result*x;
-   }
-   System.out.println(+x+" ki power " +n+ " ka result = " +result);
+   System.out.println("Enter the number of a");
+   int a = sc.nextInt();
+   System.out.println("Enter the power of b");
+   int b = sc.nextInt();
 
-    
+   findGcd(a, b);
+  
 
         
         
