@@ -104,6 +104,8 @@ public class _02_Exersice_Qs {
     //     //     System.out.println("Hello piyush bhai ");
             
     //     // } while(true);
+
+     System.out.println("\n----------------------------------------------------------------------\n");
         
 
 
