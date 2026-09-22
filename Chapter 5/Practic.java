@@ -20,7 +20,7 @@ public class Practic {
         a = next;
     }
     System.out.println();
-     System.out.println();
+    
     }
 
     
