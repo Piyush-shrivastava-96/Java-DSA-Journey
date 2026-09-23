@@ -10,6 +10,7 @@ public class Ary_cls {
         }
         for(int i=0; i<name.length; i++){
             System.out.println(name[i]);
+            System.out.println();
         }
        
         
