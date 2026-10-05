@@ -4,24 +4,15 @@ public class Ary_cls {
     public static void main(String args []){
     Scanner sc = new Scanner(System.in); 
     int size = sc.nextInt();
-    int numbers[] = new int[size];
+    String names[] = new String[size];
+    for(int i=0; i<size; i++){
+        names[i] = sc.next();
+    }
+    for(int i=0; i<names.length; i++){
+        System.out.println(names[i]);
+    }
 
-    // for(int i=0; i<size; i++){
-    //     numbers[i] = sc.nextInt();
-    // }
-    // int max = Integer.MIN_VALUE; 
-    // int min = Integer.MAX_VALUE; 
-
-    // for(int i=0; i<numbers.length; i++){
-    //     if(numbers[i] > max){
-    //         max = numbers[i];
-    //     }
-    //     if(numbers[i] < min){
-    //         min = numbers[i];
-    //     }
-    // }
-    // System.out.println("Maximum number is = " +max);
-    //  System.out.println("Minimum number is = " +min);
+    
  }
 }
 
