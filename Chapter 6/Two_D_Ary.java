@@ -11,9 +11,15 @@ public class Two_D_Ary {
                 arr[i][j] = sc.nextInt();
             }
         }
+        System.out.println("Enter the number to search X");
+        int x = sc.nextInt();
+
         for(int i=0; i<rows; i++){
             for(int j=0; j<colm; j++){
-                System.out.print(arr[i][j] + " ");
+                if(arr[i][j] == x){
+                    System.out.print("X found at location = " + "(" + i + "," + j + ")");
+                }
+                
             }
             System.out.println();
         }
