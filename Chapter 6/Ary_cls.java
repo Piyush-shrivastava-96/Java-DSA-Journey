@@ -22,28 +22,39 @@ public class Ary_cls {
     // System.out.println("Maximum: " + max);
     // System.out.println("Minimum: " + min);
 
+    // System.out.println("-----------------------------------------------------------------------------------------------------------------");
+    // System.out.println("Enter the size of the array:");
+    // int sizz = sc.nextInt();
+    // int number[] = new int[sizz];
+    // int max = Integer.MIN_VALUE;
+    // int min = Integer.MAX_VALUE;
+
+    // for(int i=0; i<sizz; i++){
+    //     number[i] = sc.nextInt();
+
+    // }
+    // for(int i=0; i<number.length; i++){
+    //     if(number[i] > max){
+    //         max = number[i];
+    //     }
+    //     if(number[i] < min){
+    //         min = number[i];
+    //     }
+    // }
+    // System.out.println("Maximum Number: " + max);
+    // System.out.println("Minimum Number: " + min);
+
+
     System.out.println("-----------------------------------------------------------------------------------------------------------------");
     System.out.println("Enter the size of the array:");
-    int sizz = sc.nextInt();
-    int number[] = new int[sizz];
-    int max = Integer.MIN_VALUE;
-    int min = Integer.MAX_VALUE;
-
-    for(int i=0; i<sizz; i++){
-        number[i] = sc.nextInt();
-
+    int sizes = sc.nextInt();
+    int numberss[] = new int[sizes];
+    for(int i=0; i<sizes; i++){
+        numberss[i] = sc.nextInt();
     }
-    for(int i=0; i<number.length; i++){
-        if(number[i] > max){
-            max = number[i];
-        }
-        if(number[i] < min){
-            min = number[i];
-        }
+    for(int i=0; i<numberss.length; i++){
+        System.out.println(numberss[i] );
     }
-    System.out.println("Maximum Number: " + max);
-    System.out.println("Minimum Number: " + min);
-
 }
 }
 
