@@ -41,6 +41,11 @@ public class Strings {
     else{
         System.out.println("Strings are not equal");
     }
+
+    System.out.println("\n------------------------------2. use of 'Substring' method---------------------\n");
+    String tence = "I am a sensitive person";
+    String sentence = tence.substring(17, tence.length());
+    System.out.println(sentence);
     
     }
 }
