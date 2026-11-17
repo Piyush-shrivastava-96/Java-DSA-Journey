@@ -15,6 +15,7 @@ Scanner sc = new Scanner(System.in);
        
         total += names[i].length();
     }
+    System.out.println();
     System.out.println(total);
     
 
