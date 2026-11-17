@@ -23,7 +23,7 @@ public class Strings {
         System.out.println("Strings are not equal");
     }
 
-    System.out.println("-----------------------------2. use of withoutcompareTo() method----------------------------------------");
+    System.out.println("-----------------------------2. use of withoutcompareTo() method----------------------------------------\n");
 
      if(name1 == name2){
         System.out.println("Strings are equals");
@@ -32,7 +32,7 @@ public class Strings {
         System.out.println("Strings are not equal");
     }
     
-    System.out.println("------------------------------2. use of withoutcompareTo() & different answers method---------------------");
+    System.out.println("------------------------------2. use of withoutcompareTo() & different answers method---------------------\n");
 
 
     if(new String("Piyush") == new String("Piyush")){
